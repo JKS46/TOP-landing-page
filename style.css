@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+.header,.logos,.info,.quote,.signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border: #1F2937 5px solid;
+}
+a{
+    text-decoration: none;
+    color:white
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.footer{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header,.info,.footer{
+    background: #1F2937;
+    color:white ;
+}
+.quote{
+    flex-direction: column;
+}
+.signer{
+    font-weight: bold;
+    text-align: end;
+}
