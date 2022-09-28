@@ -9,8 +9,6 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border: #1F2937 5px solid;
-    
 }
 .info{
     padding-top: 0;
@@ -73,11 +71,11 @@ li a{
     color: #E5E7EB;
     width: 300px;
 }
-.infox button{
-     
-}
 .signup{
-   background-color: #3882f6; 
+   background-color: #3882f6;
+   margin: 50px;
+   border: none; 
+   text-align: center;
 }
 button{
     background-color: #3882f6; 
