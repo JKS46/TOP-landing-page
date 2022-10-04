@@ -5,7 +5,7 @@ body{
     flex-wrap: wrap;
     flex: auto;
 }
-.header,.logos,.info,.quote,.signup{
+header,.logos,.info,.quote,.signup{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,13 +24,13 @@ img{
     border-radius: 15px;
     border: rgb(49, 6, 12) 2px solid;
 }
-.footer{
+footer{
     height: 44px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.header,.info,.footer{
+header,.info,footer{
     background: #1F2937;
     color:white ;
 }
