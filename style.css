@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     flex-wrap: wrap;
+    flex: auto;
 }
 .header,.logos,.info,.quote,.signup{
     display: flex;
